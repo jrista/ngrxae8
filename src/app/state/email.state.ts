@@ -1,5 +1,5 @@
 import { buildState, IEntityState } from '@briebug/ngrx-auto-entity';
-import { Email } from 'src/app/core/models/email.model';
+import { Email } from '../core/models/email.model';
 
 export const { initialState, selectors, facade: EmailFacadeBase } = buildState(Email);
 
